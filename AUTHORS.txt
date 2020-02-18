@@ -1,0 +1,27 @@
+# This is the list of [Project Name] authors for copyright purposes.
+#
+# This does not necessarily list everyone who has contributed code, since in
+# some cases, their employer may be the copyright holder.  To see the full list
+# of contributors, see the revision history in source control.
+
+Daniele Argiolas
+Antonino Benedetto
+Elisa Chiari
+Andrea Fontana
+Vincenzo Gambino
+Martina Iannella
+Domenico Lisi
+Filippo Lo Bue
+Alessandro Marchino
+Raffaela Montuori
+Alessandra Osorio
+Claudio Picco
+Alessio Romanato
+Paolo Sacco
+Giuseppe Sorce
+Antonio Starace
+Daniela Tarantino
+Alessandro Todesco
+Valentina Triolo
+Filippo Vallero
+Massimo Venesia
