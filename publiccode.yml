@@ -1,0 +1,106 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - budgeting
+  - erp
+dependsOn:
+  open:
+    - name: Java Runtime
+      optional: false
+      version: '1.8.0_73'
+    - name: RedHat Jboss EAP
+      optional: false
+      version: '6.4.0'
+    - name: PostgreSQL
+      optional: false
+      version: '9.6'
+description:
+  it:
+    features:
+      - Predisposizione del Bilancio di Previsione
+      - Predisposizione degli allegati normativi previsti per il bilancio di previsione
+      - Gestione dell'Esercizio Provvisorio
+      - Gestione dei capitoli di diversi esercizi finanziari
+      - Gestione delle variazioni al Bilancio durante le varie fasi dell'esercizio finanziario
+      - Gestione dei movimenti contabili di entrata e di spesa
+      - Predisposizione del Rendiconto della gestione
+      - Predisposizione degli allegati normativi previsti per rendiconto di gestione
+      - Estrazione dei dati per la Dichiarazione del Modello 770
+      - Gestione residui separata da gestione competenza e cassa
+      - Gestione delle carte contabili e della relativa regolarizzazione
+      - Gestione dei documenti, a loro volta composti da frontespizio, quote, beneficiario
+      - Gestione di atti di liquidazione
+      - Gestione dei flussi automatici
+      - Gestione della contabilità generale e delle prime note, e possibile gestione separata della contabilità sanitaria
+      - Gestione della cassa economale
+    genericName: Gestione Amministrativo Contabile Enti
+    longDescription: >
+      ### Sistema Informativo Amministrativo Contabile
+      
+      La contabilità finanziaria rileva informazioni atte a garantire un controllo preventivo, concomitante e consuntivo sul corretto utilizzo delle risorse e sul rispetto dei vincoli formulati in sede di previsione (logica autorizzatoria) oltre a garantire il mantenimento di condizioni di equilibrio finanziario (pareggio di bilancio).
+      A tal riguardo è possibile distinguere tre distinte fasi: la fase di previsione, di gestione e di rendicontazione. La fase di previsione ha il compito di trasporre gli indirizzi degli organi politici in previsioni di spesa ed entrata mantenendo saldo il vincolo di equilibrio di bilancio; si contraddistingue per il carattere autorizzatorio in quanto determina i limiti agli impegni di spesa per l'esercizio successivo. 
+      La fase di gestione è caratterizzata dalla rilevazione contabile dei fatti amministrativi (la cosiddetta "gestione del bilancio"), rilevazione che risulta normata e strettamente vincolata dall'iter da seguirsi per il pagamento delle spese e la riscossione delle entrate (fasi dell'entrata e della spesa).
+      La rendicontazione ha la finalità di rappresentare i risultati della gestione; si tratta di una rilevazione consuntiva che mette a sistema i risultati ottenuti durante la fase di gestione e ne permette il confronto con le indicazioni derivanti dalla fase preventiva.
+    shortDescription: >-
+      Contabilia è la soluzione per la gestione Amministrativo Contabile dei grandi enti
+    videos: 
+       - "https://youtu.be/YJTOkjMkBrM"
+developmentStatus: stable
+intendedAudience:
+  countries:
+    - it
+  scope:
+    - local-authorities
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: true
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: csi_pie
+landingURL: 'https://github.com/unica-open/contabilia.git'
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: CSI Piemonte
+  repoOwner: CSI Piemonte
+  authorsFile: AUTHORS.txt
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+maintenance:
+  contacts:
+    - email: michele.perdono@csi.it
+      name: Michele Perdonò
+    - email: antonino.cicala@csi.it
+      name: Antonino Cicala
+    - email: giuseppe.dimichele@csi.it
+      name: Giuseppe Di Michele
+  type: internal
+name: Contabilia
+applicationSuite: UNICA
+platforms:
+  - web
+releaseDate: '2020-02-18'
+softwareType: standalone/web
+softwareVersion: '4.20.0'
+url: 'https://github.com/unica-open/contabilia'
+usedBy:
+  - Regione Piemonte Giunta
+  - Città Metropolitana di Torino
+  - Consiglio Regionale del Piemonte
+  - Ente per il diritto allo studio
+  - Agenzia Interegionale Fiume Po
+  - Agenzia Regionale per l'Agricoltura
+  - Ente di Gestione delle Aree Protette del Po Vercellese-Alessandrino
+  - Ente di Gestione delle Aree Protette dell'Appennino Piemontese
