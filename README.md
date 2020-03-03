@@ -8,30 +8,30 @@ This is a multi-module project handling the accounting for the Public Administra
 
 The modules are as follow:
 - libraries (please note that the order reflects the interdependencies):
-  - [siaccommon](../siaccommon): common and transversal dependencies for the various subproject
-  - [siaccoritf](../siaccoritf): service interfaces for the CORE functionalities
-  - [siaccommonser](../siaccommonser): common and transversal dependencies for the SERVICE subprojects
-  - [siaccommonapp](../siaccommonapp): common and transversal dependencies for the WEBAPP subprojects
-  - [siacintegitf](../siacintegitf): service interfaces for the INTEGRATION functionalities
-  - [siacrepitf](../siacrepitf): service interfaces for the REPORT ENGINE functionalities
-  - [siacbilitf](../siacbilitf): service interfaces for the ACCOUNTING (BILancio) functionalities
+  - [siaccommon]( https://github.com/unica-open/siaccommon ): common and transversal dependencies for the various subproject
+  - [siaccoritf]( https://github.com/unica-open/siaccoritf ): service interfaces for the CORE functionalities
+  - [siaccommonser]( https://github.com/unica-open/siaccommonser ): common and transversal dependencies for the SERVICE subprojects
+  - [siaccommonapp]( https://github.com/unica-open/siaccommonapp ): common and transversal dependencies for the WEBAPP subprojects
+  - [siacintegitf]( https://github.com/unica-open/siacintegitf ): service interfaces for the INTEGRATION functionalities
+  - [siacrepitf]( https://github.com/unica-open/siacrepitf ): service interfaces for the REPORT ENGINE functionalities
+  - [siacbilitf]( https://github.com/unica-open/siacbilitf ): service interfaces for the ACCOUNTING (BILancio) functionalities
 - backend services:
-  - [siaccorser](../siaccorser): service implementation for the CORE functionalities
-  - [siacbilser](../siacbilser): service implementation for the ACCOUNTING (BILancio) functionalities
+  - [siaccorser]( https://github.com/unica-open/siaccorser ): service implementation for the CORE functionalities
+  - [siacbilser]( https://github.com/unica-open/siacbilser ): service implementation for the ACCOUNTING (BILancio) functionalities
 - frontend services:
-  - [siaccruapp](../siaccruapp): webapp for the DASHBOARD (CRUSCOTTO) functionalities
-  - [siacbilapp](../siacbilapp): webapp for the ACCOUNTING (BILANCIO) functionalities
-  - [siacfinapp](../siacfinapp): webapp for the FINANCING functionalities
-  - [siacboapp](../siacboapp): webapp for the BACKOFFICE functionalities
-  - [siacrepapp](../siacrepapp): webapp for the REPORT ENGINE functionalities
+  - [siaccruapp]( https://github.com/unica-open/siaccruapp ): webapp for the DASHBOARD (CRUSCOTTO) functionalities
+  - [siacbilapp]( https://github.com/unica-open/siacbilapp ): webapp for the ACCOUNTING (BILANCIO) functionalities
+  - [siacfinapp]( https://github.com/unica-open/siacfinapp ): webapp for the FINANCING functionalities
+  - [siacboapp]( https://github.com/unica-open/siacboapp ): webapp for the BACKOFFICE functionalities
+  - [siacrepapp]( https://github.com/unica-open/siacrepapp ): webapp for the REPORT ENGINE functionalities
 - transversal:
-  - [siacbatch](../siacbatch): CLI/batch projects to be invoked by a scheduler
-  - [siacreport](../siacreport): reporting template for the report engine
-  - [siacdbimpl](../siacdbimpl): database implementation, with all the required scripts
-  - [siacetlbo](../siacetlbo): backoffice for the ETL (Extract, Transform, Load) functionalities
-  - [siacetlmigr](../siacetlmigr): migration via ETL (Extract, Transform, Load) functionalities
-  - [siacwebres](../siacwebres): static web resources for the webapps
-  - [siacscripts](../siacscripts): CLI scripts for automation and executions
+  - [siacbatch]( https://github.com/unica-open/siacbatch ): CLI/batch projects to be invoked by a scheduler
+  - [siacreport]( https://github.com/unica-open/siacreport ): reporting template for the report engine
+  - [siacdbimpl]( https://github.com/unica-open/siacdbimpl ): database implementation, with all the required scripts
+  - [siacetlbo]( https://github.com/unica-open/siacetlbo ): backoffice for the ETL (Extract, Transform, Load) functionalities
+  - [siacetlmigr]( https://github.com/unica-open/siacetlmigr ): migration via ETL (Extract, Transform, Load) functionalities
+  - [siacwebres]( https://github.com/unica-open/siacwebres ): static web resources for the webapps
+  - [siacscripts]( https://github.com/unica-open/siacscripts ): CLI scripts for automation and executions
 
 # Configurations
 For the configuration of each single module, please refer to the
@@ -61,7 +61,7 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of cond
 and the process for submitting pull requests to us.
 
 # Versioning
-We partially use Semantic Versioning for versioning. (http://semver.org)\
+We partially use Semantic Versioning for versioning. (http://semver.org) \
 A major version increment in SemVer standard corresponds to a non-compatible upgrade of the project;
 yet a non-compatible upgrade to the project not necessarily corresponds to a major version increment.
 

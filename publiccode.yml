@@ -67,7 +67,7 @@ it:
     pagopa: false
     spid: false
   riuso:
-    codiceIPA: csi_pie
+    codiceIPA: csi_piem
 landingURL: 'https://github.com/unica-open/contabilia.git'
 legal:
   license: EUPL-1.2
