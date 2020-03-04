@@ -34,11 +34,11 @@ description:
       - Gestione dei documenti, a loro volta composti da frontespizio, quote, beneficiario
       - Gestione di atti di liquidazione
       - Gestione dei flussi automatici
-      - Gestione della contabilità generale e delle prime note, e possibile gestione separata della contabilità sanitaria
+      - Gestione della contabilità generale e delle prime note, e gestione separata contabilità sanitaria
       - Gestione della cassa economale
-    genericName: Gestione Amministrativo Contabile Enti
+    genericName: Gestione Amministrativo Contabile
     longDescription: >
-      ### Sistema Informativo Amministrativo Contabile
+      ### Sistema Informativo Amministrativo Contabile per gli Enti
       
       La contabilità finanziaria rileva informazioni atte a garantire un controllo preventivo, concomitante e consuntivo sul corretto utilizzo delle risorse e sul rispetto dei vincoli formulati in sede di previsione (logica autorizzatoria) oltre a garantire il mantenimento di condizioni di equilibrio finanziario (pareggio di bilancio).
       A tal riguardo è possibile distinguere tre distinte fasi: la fase di previsione, di gestione e di rendicontazione. La fase di previsione ha il compito di trasporre gli indirizzi degli organi politici in previsioni di spesa ed entrata mantenendo saldo il vincolo di equilibrio di bilancio; si contraddistingue per il carattere autorizzatorio in quanto determina i limiti agli impegni di spesa per l'esercizio successivo. 
