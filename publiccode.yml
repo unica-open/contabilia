@@ -45,7 +45,7 @@ description:
       La fase di gestione è caratterizzata dalla rilevazione contabile dei fatti amministrativi (la cosiddetta "gestione del bilancio"), rilevazione che risulta normata e strettamente vincolata dall'iter da seguirsi per il pagamento delle spese e la riscossione delle entrate (fasi dell'entrata e della spesa).
       La rendicontazione ha la finalità di rappresentare i risultati della gestione; si tratta di una rilevazione consuntiva che mette a sistema i risultati ottenuti durante la fase di gestione e ne permette il confronto con le indicazioni derivanti dalla fase preventiva.
     shortDescription: >-
-      Contabilia è la soluzione per la gestione Amministrativo Contabile dei grandi enti
+      UNICA Bilancio - Contabilia è la soluzione per la gestione Amministrativo Contabile dei grandi enti
     videos: 
        - "https://youtu.be/YJTOkjMkBrM"
 developmentStatus: stable
@@ -88,7 +88,7 @@ maintenance:
     - email: giuseppe.dimichele@csi.it
       name: Giuseppe Di Michele
   type: internal
-name: Contabilia
+name: UNICA Bilancio / Contabilia
 applicationSuite: UNICA
 platforms:
   - web
