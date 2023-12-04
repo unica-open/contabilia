@@ -94,7 +94,7 @@ platforms:
   - web
 releaseDate: '2020-02-18'
 softwareType: standalone/web
-softwareVersion: '4.20.0'
+softwareVersion: 'x.y.z'
 url: 'https://github.com/unica-open/contabilia'
 usedBy:
   - Regione Piemonte Giunta

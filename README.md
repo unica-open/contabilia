@@ -4,7 +4,7 @@ CONTABILIA
 Contabilit&agrave; per i grandi enti pubblici
 
 # Project Description
-This is a multi-module project handling the accounting for the Public Administration.
+This is a multi-module project handling the accounting for Italy's Public Administration.
 
 The modules are as follow:
 - libraries (please note that the order reflects the interdependencies):
@@ -29,7 +29,6 @@ The modules are as follow:
   - [siacreport]( https://github.com/unica-open/siacreport ): reporting template for the report engine
   - [siacdbimpl]( https://github.com/unica-open/siacdbimpl ): database implementation, with all the required scripts
   - [siacetlbo]( https://github.com/unica-open/siacetlbo ): backoffice for the ETL (Extract, Transform, Load) functionalities
-  - [siacetlmigr]( https://github.com/unica-open/siacetlmigr ): migration via ETL (Extract, Transform, Load) functionalities
   - [siacwebres]( https://github.com/unica-open/siacwebres ): static web resources for the webapps
   - [siacscripts]( https://github.com/unica-open/siacscripts ): CLI scripts for automation and executions
 
@@ -44,17 +43,17 @@ Please refer to the Installing section for specifications about the installation
 
 # Prerequisites
 - The Java projects are written in UTF-8 and are compatible with Java 1.6.0_41
-- (Compilation only) The `JAVA_HOME` environment variable is required to point to the Java 1.6.0_41 JDK home folder
+- (Compilation only) The `JAVA_HOME` environment variable is required to point to the Java 1.8.0_73 JDK home folder
 - The Java runtime used is 1.8.0_73
 - Apache Ant for the building process
 - Apache Ivy for dependencies management
-- All the libraries listed in the BOM.csv must be accessible to compile the project. the libraries are published at [http://repart.csi.it](http://repart.csi.it), but are also included in the `lib/` folder for simplicity
+- All the libraries listed in the BOM.csv must be accessible to compile the project. The libraries are published at [http://repart.csi.it](http://repart.csi.it), but are also included in the `lib/` folder for simplicity
 - A "JEE 6 full profile"-compatible Application Server (tested on JBoss EAP 6.4.0)
-- The correct version for the DBMS (tested on PostgreSQL 9.6)
+- A compatible PostgreSQL DBMS (tested on PostgreSQL 9.6)
 
 # Installing
 Please refer to the [INSTALLATION.md](./INSTALLATION.md) file for the steps
-required for the installation
+required for the installation.
 
 # Contributing
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct,

@@ -8,15 +8,15 @@
   - To achieve the maximum reusability of the Ivy caching system, create a `ivycache/` folder at the same level as the subprojects and configure the `<project>/buildfiles/ivyconf.xml` file to refer to such folder.
 - Compile the projects in the following order (so as to correctly configure the dependencies):
   - `siaccommon`
-  - `corserveritf`
+  - `siaccoritf`
   - `siacintegitf`
   - `siaccommonser`
   - `siaccommonapp`
   - `siacrepitf`
-  - `bilserveritf`
+  - `siacbilitf`
   - The following may be compiled in any order:
-    - `corserverimpl`
-    - `bilserverimpl`
+    - `siccorser`
+    - `siacbilser`
   - The following may be compiled in any order:
     - `siaccruapp`
     - `siacboapp`
