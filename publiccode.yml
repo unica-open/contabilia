@@ -81,20 +81,24 @@ localisation:
 logo: unica.png
 maintenance:
   contacts:
+    - email: barbara.malano@csi.it
+      name: Barbara Malano 
     - email: michele.perdono@csi.it
       name: Michele Perdonò
+    - email: paolo.carraro@csi.it
+      name: Paolo Carraro 
     - email: antonino.cicala@csi.it
       name: Antonino Cicala
-    - email: giuseppe.dimichele@csi.it
-      name: Giuseppe Di Michele
+    - email: massimo.molino@csi.it
+      name: Massimo Molino 
   type: internal
 name: UNICA Bilancio / Contabilia
 applicationSuite: UNICA
 platforms:
   - web
-releaseDate: '2020-02-18'
+releaseDate: '2023-12-11'
 softwareType: standalone/web
-softwareVersion: 'x.y.z'
+softwareVersion: '1.1.0'
 url: 'https://github.com/unica-open/contabilia'
 usedBy:
   - Regione Piemonte Giunta

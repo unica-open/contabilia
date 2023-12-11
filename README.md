@@ -30,7 +30,7 @@ The modules are as follow:
   - [siacdbimpl]( https://github.com/unica-open/siacdbimpl ): database implementation, with all the required scripts
   - [siacetlbo]( https://github.com/unica-open/siacetlbo ): backoffice for the ETL (Extract, Transform, Load) functionalities
   - [siacwebres]( https://github.com/unica-open/siacwebres ): static web resources for the webapps
-  - [siacscripts]( https://github.com/unica-open/siacscripts ): CLI scripts for automation and executions
+  - [siacscript]( https://github.com/unica-open/siacscript ): CLI scripts for automation and executions
 
 # Configurations
 For the configuration of each single module, please refer to the
