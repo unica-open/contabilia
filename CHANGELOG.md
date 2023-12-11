@@ -14,7 +14,7 @@ This project does NOT adhere to [Semantic Versioning](https://semver.org/spec/v2
 
 ### Added
 
-- This is the release aligned with version 5.18.0 of CSI Piemonte
+- This is the release aligned with version 5.20.0 of CSI Piemonte
 
 ## [1.0.0] - 2020-02-18
 
