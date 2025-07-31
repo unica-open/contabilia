@@ -5,7 +5,7 @@ url: https://suiteunica.csi.it/
 landingURL: https://github.com/unica-open/contabilia.git
 softwareVersion: 5.20.0
 releaseDate: 2023-12-11
-logo: unica.png
+logo: UNICA bilancio.png
 platforms:
   - web
 categories:
