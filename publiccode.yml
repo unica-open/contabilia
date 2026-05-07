@@ -1,8 +1,7 @@
-publiccodeYmlVersion: 0.4.0
+publiccodeYmlVersion: "0"
 name: UNICA Contabilia
 applicationSuite: UNICA
-url: https://suiteunica.csi.it/
-landingURL: https://github.com/unica-open/contabilia.git
+url: https://github.com/unica-open/contabilia
 softwareVersion: 5.20.0
 releaseDate: 2023-12-11
 logo: UNICA bilancio.png
@@ -22,12 +21,11 @@ developmentStatus: stable
 softwareType: standalone/web
 intendedAudience:
   countries:
-    - it
+    - IT
   scope:
     - local-authorities
 description:
   it:
-    genericName: Gestione Amministrativo Contabile
     shortDescription: UNICA Bilancio - Contabilia è la soluzione per la gestione
       Amministrativo Contabile dei grandi enti
     longDescription: >
@@ -79,31 +77,19 @@ description:
 legal:
   license: EUPL-1.2
   mainCopyrightOwner: CSI Piemonte
-  repoOwner: CSI Piemonte
-  authorsFile: AUTHORS.txt
 maintenance:
   type: internal
   contacts:
     - name: Barbara Malano
       email: barbara.malano@csi.it
-      phone: ""
-      affiliation: ""
     - name: Michele Perdonò
       email: michele.perdono@csi.it
-      phone: ""
-      affiliation: ""
     - name: Antonino Cicala
       email: antonino.cicala@csi.it
-      phone: ""
-      affiliation: ""
     - name: Massimo Molino
       email: massimo.molino@csi.it
-      phone: ""
-      affiliation: ""
     - name: Massimiliano Purpura
       email: massimiliano.purpura@csi.it
-      phone: ""
-      affiliation: ""
 localisation:
   localisationReady: true
   availableLanguages:
@@ -119,17 +105,3 @@ dependsOn:
     - name: PostgreSQL
       version: "9.6"
       optional: false
-it:
-  countryExtensionVersion: "0.2"
-  conforme:
-    lineeGuidaDesign: true
-    modelloInteroperabilita: true
-    misureMinimeSicurezza: true
-    gdpr: true
-  piattaforme:
-    spid: false
-    cie: false
-    anpr: false
-    pagopa: false
-  riuso:
-    codiceIPA: csi_piem
