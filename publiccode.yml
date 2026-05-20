@@ -1,8 +1,8 @@
 publiccodeYmlVersion: 0.4.0
-name: UNICA Contabilia
+name: UNICA contabilia
 applicationSuite: UNICA
-url: https://suiteunica.csi.it/
-landingURL: https://github.com/unica-open/contabilia.git
+url: https://github.com/unica-open/contabilia
+landingURL: https://suiteunica.csi.it/la-suite/unica-contabilia.php
 softwareVersion: 5.20.0
 releaseDate: 2023-12-11
 logo: UNICA bilancio.png
@@ -28,8 +28,8 @@ intendedAudience:
 description:
   it:
     genericName: Gestione Amministrativo Contabile
-    shortDescription: UNICA Bilancio - Contabilia è la soluzione per la gestione
-      Amministrativo Contabile dei grandi enti
+    shortDescription: UNICA contabilia - La soluzione per la gestione
+      Amministrativo Contabile degli enti
     longDescription: >
       ### Sistema Informativo Amministrativo Contabile per gli Enti
 
