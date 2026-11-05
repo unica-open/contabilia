@@ -1,8 +1,8 @@
-publiccodeYmlVersion: 0.4.0
+publiccodeYmlVersion: 0.5.0
 name: UNICA contabilia
 applicationSuite: UNICA
-url: https://github.com/unica-open/contabilia
-landingURL: https://suiteunica.csi.it/la-suite/unica-contabilia.php
+url: https://github.com/unica-open/contabilia.git
+landingURL: https://github.com/unica-open/contabilia
 softwareVersion: 5.20.0
 releaseDate: 2023-12-11
 logo: unica contabilia logo.png
@@ -22,7 +22,7 @@ developmentStatus: stable
 softwareType: standalone/web
 intendedAudience:
   countries:
-    - it
+    - IT
   scope:
     - local-authorities
 description:
@@ -74,6 +74,7 @@ description:
       - Gestione della contabilità generale e delle prime note, e gestione
         separata contabilità sanitaria
       - Gestione della cassa economale
+    documentation: https://suiteunica.csi.it/la-suite/unica-contabilia.php
     videos:
       - https://youtu.be/YJTOkjMkBrM
 legal:
@@ -119,6 +120,9 @@ dependsOn:
     - name: PostgreSQL
       version: "9.6"
       optional: false
+organisation:
+  uri: 'urn:x-italian-pa:csi_piem'
+  name: CSI PIEMONTE
 it:
   countryExtensionVersion: "0.2"
   conforme:
@@ -131,5 +135,3 @@ it:
     cie: false
     anpr: false
     pagopa: false
-  riuso:
-    codiceIPA: csi_piem
