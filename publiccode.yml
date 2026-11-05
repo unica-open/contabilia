@@ -135,3 +135,5 @@ it:
     cie: false
     anpr: false
     pagopa: false
+  riuso:
+    codiceIPA: csi_piem
